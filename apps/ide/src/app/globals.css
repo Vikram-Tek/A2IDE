@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --brand-green: #1bcc8a;
+  --brand-teal: #17b8d4;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; overflow: hidden; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #1bcc8a55; }
+
+/* Monaco editor overrides */
+.monaco-editor .margin { background-color: #161b22 !important; }
+.monaco-editor, .monaco-editor-background { background-color: #0d1117 !important; }
